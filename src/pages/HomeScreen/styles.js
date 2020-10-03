@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
         marginTop: 5,
         alignSelf: 'flex-end',
         fontFamily: 'BeVietnam-Medium'
-    }
+    },
 });
 
 export default styles;

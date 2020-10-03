@@ -6,7 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import HomeScreen from './pages/HomeScreen';
 import MusicSearchResult from './pages/MusicSearchResult';
-import MusicInfo from './pages/MusicInfo';
+import MyTabs from './tabNavigator';
 
 const Stack = createStackNavigator();
 
@@ -18,7 +18,7 @@ function Routes() {
         }}>
         <Stack.Screen name="HomeScreen" component={HomeScreen} />
         <Stack.Screen name="MusicSearchResult" component={MusicSearchResult} />
-        <Stack.Screen name="MusicInfo" component={MusicInfo} />
+        <Stack.Screen name="MyTabs" component={MyTabs} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -45,7 +45,7 @@ export default function MusicSearchResult({ route, navigation }) {
                     return (
                         <TouchableOpacity
                             style={styles.artistSector}
-                            onPress={() => { navigation.navigate('MusicInfo') }}
+                            onPress={() => { navigation.navigate('MyTabs') }}
                         >
                             <View style={styles.artistGroup}>
                                 <Image source={item.pic} style={styles.artistThumb} />
